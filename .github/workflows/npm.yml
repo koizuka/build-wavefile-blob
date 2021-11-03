@@ -20,7 +20,7 @@ jobs:
       # npm に公開するように .npmrc ファイルを設定する
       - uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: '16'
           registry-url: 'https://registry.npmjs.org'
       - run: yarn
       - run: yarn publish
